@@ -10,4 +10,5 @@ def get_uniq(lst):
             new_lst.append(i)
     return new_lst
 
+
 print(f'{lst} => {get_uniq(lst)}')

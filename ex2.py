@@ -12,6 +12,7 @@ def get_factors(n):
             factor += 1
     return lst
 
+
 num = int(input('Введите число: '))
 
 print(f'{num} => {get_factors(num)}')
